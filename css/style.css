@@ -32,6 +32,10 @@ a {
 	color: #FFFFFF;
 }
 
+.fix {
+	width: 100%;
+}
+
 .right {
 	float: right;
 }
