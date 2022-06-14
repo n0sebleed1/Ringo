@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+li {
+	list-style-type: none;
+}
+
+header {
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #000000;
+}
+
+footer {
+	background-color: #D9B979;
+	width: 100%;
+	height: 100px;
+	margin: 50px 0 0 0;
+}
+
+h1 {
+	font-size: 48px;
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.right {
+	float: right;
+}
+
+.flex {
+	display: flex;
+}
+
+.head-logo {
+	width: 80px;
+	height: 110px;
+	margin: 10px 0 0 135px;
+	list-style: none;
+}
+
+.head-menu {
+	margin: 50px 50px 0 0;
+}
+
+.head-menu-text {
+	margin: 0 0 0 30px;
+	font-size: 24px;
+	color: #000000;
+}
+
+.head-menu-text:hover {
+	color: #797979;
+}
+
+.catalog {
+	width: 1030px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.catalog-product {
+	width: 181px;
+	height: 255px;
+	margin: 50px 25px 25px 0;
+}
+
+.catalog-product-img {
+	width: 181px;
+	height: 181px;
+	margin: 0 auto;
+}
+
+.catalog-product-price {
+	font-size: 32px;
+	text-align: center;
+}
+
+.catalog-product-name {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.catalog-product-button {
+	background-color: #D9B979;
+	color: #ffffff;
+	border: none;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+.catalog-product-button:hover {
+	background-color: #AF9869;
+}
+
+.whywe {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.whywe-block {
+	width: 350px;
+	height: 450px;
+	margin: 30px 15px 0px 15px;
+}
+
+.whywe-block-img {
+	width: 150px;
+	height: 130px;
+	padding: 0 0 0 100px;
+}
+
+.whywe-block-name {
+	font-size: 24px;
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+
+.whywe-block-text {
+	text-align: center;
+	font-size: 20px;
+	margin: 5px 0 0 0;
+	color: #979797;
+}
+
+.shops {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1380px;
+	margin: 0 auto;
+}
+
+.shops-block {
+	width: 410px;
+	height: 275px;
+	border: 2px solid #C4C4C4;
+	border-radius: 30px;
+	margin: 30px 15px 0 30px;
+}
+
+.shops-block-name {
+	font-size: 36px;
+	color: #D9B979;
+	margin: 35px 0 0 35px;
+}
+
+.shops-block-adress {
+	font-size: 24px;
+	color: #979797;
+	margin: 10px 40px 0 35px;
+}
+
+.shops-block-button {
+	text-align: center;
+	width: 300px;
+	height: 55px;
+	border: none;
+	background-color: #D9B979;
+	font-size: 24px;
+	color: white;
+	margin: 10px 0 0 35px;
+}
+
+.shops-block-button:hover {
+	background-color: #AF9869;
+}
+
+.foot-contact {
+	font-size: 24px;
+	color: #ffffff;
+	padding: 22px 0 0 50px;
+	float: left;
+}
+
+.foot-adress {
+	font-size: 24px;
+	color: #ffffff;
+	float: right;
+	padding: 22px 50px 0 0;
+}
+
+@media screen and (max-width: 1200px){
+	.shops {
+		width: 950px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.whywe {
+		width: 800px;
+	}
+
+	.catalog {
+		width: 825px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.head-logo {
+		width: 60px;
+		height: 90px;
+	}
+}
